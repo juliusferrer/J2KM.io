@@ -1,0 +1,79 @@
+.loader {
+  position: absolute;
+  top: 40%;
+  left: 47%;
+}
+#night {
+  background: #fff;
+}
+.fontsize {
+  font-size: 20px;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.carousel {
+  /* transform: translateY(-50px); */
+  height: 800px;
+  perspective: 600px;
+}
+.carousel .carousel-item {
+  width: 300px;
+}
+.carousel .carousel-item img {
+  width: 100%;
+}
+.carousel .carousel-item h3 {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #000;
+  box-sizing: border-box;
+  padding: 10px 5px;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+}
+.carousel .carousel-item h4 {
+  margin: 0;
+  padding: 0;
+  background: #000;
+  color: #fff;
+  box-sizing: border-box;
+  padding: 10px 5px;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+}
+
+.section {
+  position: relative;
+}
+
+.section .section-contact .slider {
+  position: relative;
+  z-index: 1;
+}
+.parallax2 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  padding: 0;
+  margin: 0;
+}
+.side-nav,
+#hov a:hover {
+  background: rgb(190, 0, 0);
+  color: white;
+}
+.container .logo {
+  height: 60%;
+}
+.container ul li a:hover {
+  background: rgb(190, 0, 0);
+  color: white;
+}
